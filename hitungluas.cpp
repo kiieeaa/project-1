@@ -1,25 +1,28 @@
 #include <iostream>
-using namespace std;
+ using namespace std;
 
-float Luas, Panjang, Lebar;
+ float Luas, Panjang, Lebar;
 
-void InputData()
-{
-    cout << "masukkan panjangnya : ";
+ void InputData()
+ {
+    cout << "Masukan panjangnya : ";
     cin >> Panjang;
-    cout << "masukan lebarnya :";
+    cout << "Masukin lebarnya : ";
     cin >> Lebar;
-}
-float HitungLuas()
-{
+ }
+ float HitungLuas()
+ {
     return Panjang * Lebar;
-}
-void TampilkanData()
-{
-    cout << "Luas persergi panjang : " << HitungLuas();
-}
-int main()
-{
+ }
+ void TampilData()
+ {
+    cout << "Luas Persegi Panjang : " << HitungLuas();
+ }
+
+ int main()
+ {
     InputData();
-    TampilkanData();
-}
+    TampilData();
+ }
+
+ //trrgrg
